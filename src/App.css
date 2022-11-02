@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.todo {
+  align-items: center;
+  border-radius: 3px;
+  border-color: aliceblue;
+  box-shadow: 1px 1px 1px rgba(184, 182, 182, 0.15);
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 6px 20px;
+  column-gap: 100px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input{
+  margin-bottom: 100px;
+  padding-right: 20px;
+}
